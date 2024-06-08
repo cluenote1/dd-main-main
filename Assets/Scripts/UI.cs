@@ -11,17 +11,14 @@ public class UI : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    // Update is called once per frame
-
-
-    public void Update()
+    void Update()
     {
-        if (PlayerMove.Getitem == true)
+        if (PlayerMove.Getitem)
         {
             uiText.text = "¾ÆÀÌÅÛ È¹µæ : ¿Ï·á!";
         }
-        
-        if (PlayerMove.Finish == true)
+
+        if (PlayerMove.Finish)
         {
             uiT.text = "µµÂø : ¿Ï·á!";
         }
