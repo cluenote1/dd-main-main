@@ -9,6 +9,7 @@ TagManager:
   - item
   - re
   - Die
+  - Water
   layers:
   - Default
   - TransparentFX
